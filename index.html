@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loja JS | Início</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <a class="logo" href="./index.html">Loja JS</a>
+            <nav class="nav">
+                <a href="./index.html" aria-current="page">Início</a>
+                <a href="./pages/products/index.html">Produtos</a>
+                <a href="./pages/cart/index.html">Carrinho<span class="badge" data-cart-count>0</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Tudo o que você precisa, em um só lugar</h1>
+            <p>Roupas, eletrônicos e acessórios com entrega rápida.</p>
+            <a class="btn" href="./pages/products/index.html">Ver todos os produtos</a>
+            <a class="btn" href="./pages/cart/index.html">Ir para o carrinho</a>
+        </section>
+    </main>
+
+    <footer class="footer">Loja JS — projeto de estudo com FakeStore API</footer>
 </body>
 </html>

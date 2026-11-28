@@ -1,0 +1,36 @@
+.checkout-layout {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.panel h2 {
+    font-size: 1.1rem;
+}
+
+.panel h2:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+
+.panel .summary-row span:first-child {
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.panel .btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+@media (max-width: 800px) {
+    .checkout-layout {
+        grid-template-columns: 1fr;
+    }
+}

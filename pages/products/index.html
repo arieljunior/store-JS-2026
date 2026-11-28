@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja JS | Produtos</title>
+    <link rel="stylesheet" href="../../global.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a class="logo" href="../../index.html">Loja JS</a>
+            <nav class="nav">
+                <a href="../../index.html">Início</a>
+                <a href="./index.html" aria-current="page">Produtos</a>
+                <a href="../cart/index.html">Carrinho<span class="badge" data-cart-count>0</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Produtos</h1>
+
+        <div class="filters">
+            <input type="search" data-search placeholder="Buscar produto..." aria-label="Buscar produto">
+            <select data-category aria-label="Filtrar por categoria">
+                <option value="">Todas as categorias</option>
+            </select>
+        </div>
+
+        <div class="grid" data-products>
+            <p class="message">Carregando produtos...</p>
+        </div>
+    </main>
+
+    <footer class="footer">Loja JS — projeto de estudo com FakeStore API</footer>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
