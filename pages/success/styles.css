@@ -1,0 +1,23 @@
+.success {
+    max-width: 520px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.success-icon {
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background: var(--success);
+    color: var(--primary-contrast);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.success p {
+    margin: 0 0 1.5rem;
+    color: var(--muted);
+}
